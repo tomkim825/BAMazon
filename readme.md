@@ -1,20 +1,28 @@
-#Readme for Hangman-CLI
+# Bamazon-CLI
 
-This app is also posted to github.io, but since it is a NODE app, it will not work on chrome. It is also not linked on the profile page for the same reason.
+## learning objectives:
+This assignment demonstrates knowledge of mySQL, SQL databases, and manipulating databases via Node. 
 
-This is a simple hangman game with one round. It is an exercise using constructors and modularizing functions. Random words are chosen using the random-words npm package. The answer is displayed to help you test it. Comment it out if you want a serious game. When you run out of guesses or solve the word, it will exit out of the recursive loop and back to the terminal. 
-
-KNOWN BUGS: due to the async nature of node, some elements fail to display. It is in the promise section of inquirer and should work (it does work most of the time).
+## Walkthough
+There are 3 different functionalities of bamazon: 
+1. bamazonCustomer
+2. bamazonManager
+3. bamazonSupervisor
+run whichever one you would like
 
 ```
 Before running this app, 
-run these commands one at a time to install necessary packages
+run npm i ... or run these commands one at a time 
 
 npm install inquirer
-npm install random-words
+npm install mysql
 
-*******     Commands to run Hangman     *******
+*******     Commands to run Bamazon     *******
 
-node index.js
-(press any letter)
+node bamazonCustomer.js
+node bamazonManager.js
+node bamazonSupervisor.js
 ```
+
+## bamazonCustomer
+![gif of customer terminal] (https://github.com/tomkim825/BAMazon/blob/master/customer.gif)
