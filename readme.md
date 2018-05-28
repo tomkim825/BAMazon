@@ -25,4 +25,4 @@ node bamazonSupervisor.js
 ```
 
 ## bamazonCustomer
-![gif of customer terminal] (https://github.com/tomkim825/BAMazon/blob/master/customer.gif)
+![gif of customer terminal](https://github.com/tomkim825/BAMazon/blob/master/customer.gif)
