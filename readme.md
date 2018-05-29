@@ -17,6 +17,9 @@ run npm i ... or run these commands one at a time
 npm install inquirer
 npm install mysql
 
+*******		SQL database		 *******
+Please run the SQL schemas and seeds to populate the database so the app runs correctly	
+
 *******     Commands to run Bamazon     *******
 
 node bamazonCustomer.js
@@ -56,3 +59,18 @@ The user will be prompted to purchase more and recursively run the app again, or
   - If a manager selects `Add to Inventory`, a prompt will let the manager "add more" of any item currently in the store.
 
   - If a manager selects `Add New Product`, prompts will allow a completely new product to the store
+
+## bamazonSupervisor
+![gif of manager terminal](https://github.com/tomkim825/BAMazon/blob/master/supervisor.gif)
+
+ - Running this application will list a set of menu options:
+
+   * View Product Sales by Department
+   
+   * Create New Department
+
+ - When a supervisor selects `View Product Sales by Department`, the app will display a summarized table in their terminal/bash window. 
+
+ - The `total_profit` column will be calculated on the fly using the difference between `over_head_costs` and `product_sales`. `total_profit` is not stored in any database but uses a custom alias.
+
+
